@@ -127,7 +127,7 @@ For applications requiring high precision, such as scientific computations or fi
 
 ## What Happens When Dealing with Money?
 
-Ah, money—the root of all precision problems. When dealing with financial calculations, the tiny errors in floating-point arithmetic can lead to significant discrepancies. Imagine a bank miscalculating interest rates due to floating-point errors. Chaos would ensue!
+Ah, money: the root of all precision problems. When dealing with financial calculations, the tiny errors in floating-point arithmetic can lead to significant discrepancies. Imagine a bank miscalculating interest rates due to floating-point errors. Chaos would ensue!
 
 ### Using Integers for Money
 
