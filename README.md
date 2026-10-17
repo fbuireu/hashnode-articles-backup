@@ -10,8 +10,9 @@ the cover image and the tags, then the body in markdown. The SEO fields and `ogI
 article on Hashnode sets them, so a missing `seoTitle` is not a broken backup.
 
 **The filename is the article's `cuid`**, Hashnode's internal identifier, not its slug, so the tree reads as a
-row of meaningless names and the front matter is the only place the title appears. Renaming a file to something
-readable would break the mapping the integration keeps, and the next sync would restore the old name anyway.
+row of meaningless names and the front matter is the only place the title appears. Leave the names alone: the
+integration writes each article to its `<cuid>.md`, so a renamed file is no longer the one it updates, and the
+next sync of that article would most likely write a fresh `<cuid>.md` beside the renamed copy.
 
 | File | Article |
 | --- | --- |
@@ -27,5 +28,5 @@ Hashnode and let the backup follow.
 
 ## Licence
 
-The code samples are covered by [`LICENSE`](./LICENSE). The prose is mine, and the cover images are hosted by
-Hashnode under whatever terms their sources carry.
+The code samples are covered by [`LICENSE`](./LICENSE), the GNU General Public License v3.0 (GPL-3.0). The
+prose is mine, and the cover images are hosted by Hashnode under whatever terms their sources carry.
