@@ -1,6 +1,6 @@
 # Hashnode articles backup
 
-A mirror of the articles published on [my Hashnode blog](https://hashnode.com/@fbuireu), one markdown file per
+A mirror of the articles published on [my Hashnode blog](https://hashnode.com/@Buireu), one markdown file per
 article, written here by Hashnode's own GitHub backup integration.
 
 ## What is in here
